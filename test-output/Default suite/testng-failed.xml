@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="serializationModuleTest.ComplexSerializationTest">
+      <class name="requestAPI.RequestClassTest">
         <methods>
-          <include name="serializationMethodTest"/>
+          <include name="methodTest"/>
         </methods>
-      </class> <!-- serializationModuleTest.ComplexSerializationTest -->
+      </class> <!-- requestAPI.RequestClassTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
